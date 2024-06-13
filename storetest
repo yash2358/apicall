@@ -1,0 +1,44 @@
+/*it('renders learn react link', () => {
+  render(<App />);
+  screen.debug();
+  const linkElement = screen.getByText(/Counter Application/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+it('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByRole('heading',{name:"Counter Application"});
+  expect(linkElement).toBeInTheDocument();
+});
+it('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByRole('heading',{name:"All good"});
+  expect(linkElement).toBeInTheDocument();
+});
+it('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByTestId("x");
+  expect(linkElement).toBeInTheDocument();
+});
+it('renders learn react link', async() => {
+  render(<App />);
+  const linkElement = await screen.findByText(/Counter Application/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+it('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.queryByText(/dog/i);
+  expect(linkElement).not.toBeInTheDocument();
+});
+it('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getAllByRole('heading');
+  expect(linkElement.length).toBe(2);
+});
+  test('increments', () => {
+    renderWithRedux(<App />, { initialState: { count: 0 } });
+    fireEvent.click(screen.getByText('Increment'));
+    expect(screen.getByText('1')).toBeInTheDocument();
+  });
+       */
